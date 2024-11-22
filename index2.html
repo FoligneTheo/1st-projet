@@ -12,6 +12,11 @@
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/style2.css">
+
+    <!-- Font Awesome pour les icônes -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -34,9 +39,12 @@
 
             <section id="search-and-filters">
                 <form class="search">
-                    <button type="button" id="location-btn"><i class="fa-solid fa-location-dot"></i></button>
+                    <i class="fa-solid fa-location-dot"></i>
                     <input type="text" id="search" name="query" placeholder="Marseille, France" required>
-                    <button type="submit" id="rechercher">Rechercher</button>
+                    <button type="submit" id="rechercher">
+                        <span class="text">Rechercher</span>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
                 </form>
 
                 <section id="filters">
@@ -182,11 +190,11 @@
                                 </div>
                             </article>
                         </a>
-                    </div>
-                    <div class="show">
-                        <a href="#">
-                            <p>Afficher plus</p>
-                        </a>
+                        <div class="show">
+                            <a href="#">
+                                <p>Afficher plus</p>
+                            </a>
+                        </div>
                     </div>
                 </section>
 
